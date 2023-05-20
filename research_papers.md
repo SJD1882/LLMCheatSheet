@@ -14,10 +14,10 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 
 ## Foundational LLMs
 
-- [Brown, Tom B. et al. “**Language Models are Few-Shot Learners**.” ArXiv abs/2005.14165 (2020)](https://www.semanticscholar.org/paper/Language-Models-are-Few-Shot-Learners-Brown-Mann/6b85b63579a916f705a8e10a49bd8d849d91b1fc)
+- [Brown, Tom B. et al., “**Language Models are Few-Shot Learners**.” ArXiv abs/2005.14165 (May 2020)](https://www.semanticscholar.org/paper/Language-Models-are-Few-Shot-Learners-Brown-Mann/6b85b63579a916f705a8e10a49bd8d849d91b1fc)
     - **GPT-3** (175B parameters) by OpenAI which powers chatbot ChatGPT (free-tier version). Proprietary LLM.
 
-- [Thoppilan, Romal et al. “**LaMDA: Language Models for Dialog Applications**.” ArXiv abs/2201.08239 (2022): n. pag.](https://www.semanticscholar.org/paper/LaMDA%3A-Language-Models-for-Dialog-Applications-Thoppilan-Freitas/b3848d32f7294ec708627897833c4097eb4d8778)
+- [Thoppilan, Romal et al. “**LaMDA: Language Models for Dialog Applications**.” ArXiv abs/2201.08239 (2022)](https://www.semanticscholar.org/paper/LaMDA%3A-Language-Models-for-Dialog-Applications-Thoppilan-Freitas/b3848d32f7294ec708627897833c4097eb4d8778)
     - **LaMDA** (137B parameters) by Google which powered chatbot Bard (to be replaced soon by PaLM 2). Proprietary LLM.
 
 - [Touvron, Hugo et al. “**LLaMA: Open and Efficient Foundation Language Models**.” ArXiv abs/2302.13971 (2023)](https://www.semanticscholar.org/paper/LLaMA%3A-Open-and-Efficient-Foundation-Language-Touvron-Lavril/57e849d0de13ed5f91d086936296721d4ff75a75)
@@ -29,20 +29,29 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 - [Biderman, Stella Rose et al. “**Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling**.” ArXiv abs/2304.01373 (2023)](https://www.semanticscholar.org/paper/Pythia%3A-A-Suite-for-Analyzing-Large-Language-Models-Biderman-Schoelkopf/64e20f2abc15d5cf04a682df5a1265bd45ba9fe7)
     - **Pythia** (3B, 7B, 12B) by EleutherAI (ex-OpenAI veterans). Open source with free commercial licence.
 
-- [Anil, Rohan et al. “**PaLM 2 Technical Report**.” (2023).](https://www.semanticscholar.org/paper/PaLM-2-Technical-Report-Anil-Dai/eccee350691708972370b7a12c2a78ad3bddd159)
-    - **PaLM 2** (340B parameters) by Google which is expected to replace LaMDA as the LLM powering chatbot Bard. Proprietary LLM.
-    - The 340B figure was first reported by CNBC on May 16th 2023 ([Source](https://www.cnbc.com/2023/05/16/googles-palm-2-uses-nearly-five-times-more-text-data-than-predecessor.html))
+- [Anil, Rohan et al. “**PaLM 2 Technical Report**.” (2023)](https://www.semanticscholar.org/paper/PaLM-2-Technical-Report-Anil-Dai/eccee350691708972370b7a12c2a78ad3bddd159)
+    - **PaLM 2** (340B parameters) by Google which is expected to replace LaMDA as the LLM powering chatbot Bard. Proprietary LLM. Note: the 340B figure was first reported by CNBC on May 16th 2023 ([Source](https://www.cnbc.com/2023/05/16/googles-palm-2-uses-nearly-five-times-more-text-data-than-predecessor.html))
 
 ## Alignment Fine-Tuning Methods (RLHF)
 
-## Theoretical Considerations on LLMs
+- [Hu, J. Edward et al. “**LoRA: Low-Rank Adaptation of Large Language Models**.” ArXiv abs/2106.09685 (June 2021)](https://www.semanticscholar.org/paper/LoRA%3A-Low-Rank-Adaptation-of-Large-Language-Models-Hu-Shen/a8ca46b171467ceb2d7652fbfb67fe701ad86092)
+
+- [Ouyang, Long et al. “**Training language models to follow instructions with human feedback**.” ArXiv abs/2203.02155 (March 2022)](https://www.semanticscholar.org/paper/Training-language-models-to-follow-instructions-Ouyang-Wu/d766bffc357127e0dc86dd69561d5aeb520d6f4c)
+
+- [Wang, Yizhong et al. “**Self-Instruct: Aligning Language Model with Self Generated Instructions**.” ArXiv abs/2212.10560 (Dec. 2022)](https://www.semanticscholar.org/paper/Self-Instruct%3A-Aligning-Language-Model-with-Self-Wang-Kordi/bbe93c90b7b87939cd064c805858feca61a3234d)
+
+- [Peng, Baolin et al. “**Instruction Tuning with GPT-4**.” ArXiv abs/2304.03277 (April 2023)](https://www.semanticscholar.org/paper/Instruction-Tuning-with-GPT-4-Peng-Li/9e8cb8c91a0acb6e661b58ad724aa758490f2bea)
+
+- [Kopf, Andreas et al. “**OpenAssistant Conversations - Democratizing Large Language Model Alignment**.” ArXiv abs/2304.07327 (2023)](https://www.semanticscholar.org/paper/OpenAssistant-Conversations-Democratizing-Large-Kopf-Kilcher/cf991eb05067c19c3786418e2bb6681a818574f0)
+
+- [Xu, Can et al. “**WizardLM: Empowering Large Language Models to Follow Complex Instructions**.” ArXiv abs/2304.12244 (2023): n. pag.](https://www.semanticscholar.org/paper/WizardLM%3A-Empowering-Large-Language-Models-to-Xu-Sun/c61abec65d3b5d2bbd294b3d03f12ae252ed78a7)
 
 ## Quantization of LLMs
 
-## Alignment and Ethics (Empirical Issues)
+## Theoretical Considerations on LLMs
+
+## Alignment and Ethics (limitations of alignment)
 
 ## Alignment and Ethics (alternatives to RLHF)
 
 ## Economics
-
-## Philosophy
