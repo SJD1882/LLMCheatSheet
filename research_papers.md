@@ -5,12 +5,12 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 ## Summaries
 
 - [Zhao, Wayne Xin et al. “**A Survey of Large Language Models**.” ArXiv abs/2303.18223 (April 2023)](https://www.semanticscholar.org/paper/A-Survey-of-Large-Language-Models-Zhao-Zhou/1d29334cfbe9a1a943082058876f0c22d44c62fd)
-    - Great place to start. Setups a rigourous taxonomy for what constitutes an LLM. For the authors, an NLP text generation transformer can be reasonably classified as an LLM when it has over 10 billion parameters (for reference BERT only has 300 million parameters, LLaMA biggest model has 65 billion and GPT-3 has 175 billion). 
+    - Great place to start. Setups a rigourous taxonomy for what constitutes an LLM: an NLP text generation transformer can be reasonably classified as an LLM when its parameter count hovers around 10B or more (for reference BERT only has 300 million parameters, LLaMA biggest model has 65 billion and GPT-3 has 175 billion).
 - [Bowman, Sam. “**Eight Things to Know about Large Language Models**.” ArXiv abs/2304.00612 (April 2023)](https://www.semanticscholar.org/paper/Eight-Things-to-Know-about-Large-Language-Models-Bowman/23a183676b28269e7a427c41da7329b6326a9f17)
-    - In one of the 8 points presented by Bowman, the "emergent abilities" claim from Wei et al. [2022] (that on previously "unsolvable" tasks once a certain large threshold of parameter count is reached, LLM unexpectedly performance jumps massively) is scrutinized. The author finds that of the 202 tasks evaluated by Wei et al., only 33% of them are truly "emergent", i.e. see discontinuous jumps in performance.
+    - In one of his 8 points, Bowman scrutinizes the "emergent abilities" claim by Wei et al. [2022], that on previously "unsolvable" tasks once a certain large threshold of parameter count is reached, LLM unexpectedly performance jumps massively. The author finds that of the 202 tasks evaluated by Wei et al., only 33% of them are truly "emergent", i.e. see discontinuous jumps in performance. Most other tasks see continuous improvements, no improvements and a few see performance degradations.
 
 - [Yang, Jingfeng et al. “**Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond**.” ArXiv abs/2304.13712 (April 2023)](https://www.semanticscholar.org/paper/Harnessing-the-Power-of-LLMs-in-Practice%3A-A-Survey-Yang-Jin/131c6f328c11706de2c43cd16e0b7c5d5e610b6a)
-    - Main takeaway of this paper is that while LLMs outperform previous state-of-the-art  transformers (BERT, RoBERTa, BART) on tasks that require out-of-sample generalization, on domain-specific tasks previous supervised methods still outperform LLMs (e.g. English-Kazakh translation).
+    - Main takeaway of this paper is that while LLMs outperform classical state-of-the-art  transformers (BERT, RoBERTa, BART) on tasks that require out-of-sample generalization, on domain-specific tasks classical supervised methods still outperform LLMs (e.g. English-Kazakh translation).
 
 ## Foundational LLMs
 
@@ -23,7 +23,7 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 - [Touvron, Hugo et al. “**LLaMA: Open and Efficient Foundation Language Models**.” ArXiv abs/2302.13971 (2023)](https://www.semanticscholar.org/paper/LLaMA%3A-Open-and-Efficient-Foundation-Language-Touvron-Lavril/57e849d0de13ed5f91d086936296721d4ff75a75)
     - **LLaMA** (7B to 65B parameter variants) by Meta. Released to the public under a non-commercial licence. Now ubiquitous among the research and AI enthusiast community, seeing countless finetuned variants (e.g. Alpaca, Vicuna, Open Assistant, WizardLM, Manticore, etc.).
 
-- [OpenAI. “**GPT-4 Technical Report**.” ArXiv abs/2303.08774 (2023)]()
+- [OpenAI. “**GPT-4 Technical Report**.” ArXiv abs/2303.08774 (2023)](https://www.semanticscholar.org/paper/GPT-4-Technical-Report-OpenAI/8ca62fdf4c276ea3052dc96dcfd8ee96ca425a48)
     - **GPT-4** (unknown parameter count) by OpenAI which powers chatbot ChatGPT and can be used with external plugins (premium version). Proprietary LLM.
 
 - [Biderman, Stella Rose et al. “**Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling**.” ArXiv abs/2304.01373 (2023)](https://www.semanticscholar.org/paper/Pythia%3A-A-Suite-for-Analyzing-Large-Language-Models-Biderman-Schoelkopf/64e20f2abc15d5cf04a682df5a1265bd45ba9fe7)
