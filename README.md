@@ -1,8 +1,11 @@
 # **Large Language Models Resources Repository**
 
-(Work in progress)
+<br>
 
-(Insert some meme on Data Science)
+<p align="center">
+  <img src="images/meme.PNG" alt="Image Description" width="600px">
+</p>
+
 
 ## Intro
 
@@ -11,6 +14,7 @@ This is a personal GitHub repository for stashing resources on Large Language Mo
 - Curated list of the latest open source LLMs (Vanilla HuggingFace, GPTQ, GGML for llama.cpp)
 - Code implementation of open source finetuned LLMs (e.g. Vicuna, OpenAssistant, WizardLM, etc.)
 - LLMs Applications with Langchain (e.g. plugins, documment summarization, story writing, etc.)
+- Analysis of finetuned datasets (e.g. ShareGPT, WizardLM, OpenAssistant, etc.)
 - Survey of research literature on LLM
 
 Resources on this repository are of free of use with no restrictions.
@@ -22,3 +26,4 @@ Resources on this repository are of free of use with no restrictions.
 3. Colab Notebooks
     - **CNB01_AutoGPTQ** - Using AutoGPTQ to load GPTQ quantized 4-bit models with HuggingFace Transformers and Langchain for model inference
     - **CNB02_Langchain_GGML** - Using Langchain to load GGML quantized 4-bit models for inference
+4. Youtube Resources
