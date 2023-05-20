@@ -20,5 +20,5 @@ Resources on this repository are of free of use with no restrictions.
 1. Research litterature on Large Language Models
 2. Non-exhaustive summary of proprietary and open source LLMs
 3. Colab Notebooks
-    - **CNB01_AutoGPTQ** - Using AutoGPTQ to load GPTQ quantized 4-bit models with HuggingFace Transformers and Langchain for model inference (TBD)
-    - **CNB02_Langchain_GGML** - Using Langchain to load GGML quantized 4-bit models for inference (TBD)
+    - **CNB01_AutoGPTQ** - Using AutoGPTQ to load GPTQ quantized 4-bit models with HuggingFace Transformers and Langchain for model inference
+    - **CNB02_Langchain_GGML** - Using Langchain to load GGML quantized 4-bit models for inference
