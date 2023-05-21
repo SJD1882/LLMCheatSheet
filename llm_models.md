@@ -14,8 +14,6 @@
 | [PaLM 2](https://www.semanticscholar.org/paper/PaLM-2-Technical-Report-Anil-Dai/eccee350691708972370b7a12c2a78ad3bddd159) | Bard | Google | [340](https://www.cnbc.com/2023/05/16/googles-palm-2-uses-nearly-five-times-more-text-data-than-predecessor.html)* | May 2023 |
 | [Claude](https://www.anthropic.com/index/introducing-claude) | Poe | Anthropic | ??? | March 2023 |
 
-<br>
-
 *Source: CNBC
 
 ## Consumer LLMs, finetuned variants and alignment datasets
@@ -27,7 +25,7 @@ It is important to distinguish the open sourced LLM from the variant that was fi
 | Name | Model<br>Creator | Parameters<br>(billions) | Release Date | Licence |
 | -- | -- | -- | -- | -- |
 | [Flan-T5-XL<br>Flan-T5-XXL](https://www.semanticscholar.org/paper/Scaling-Instruction-Finetuned-Language-Models-Chung-Hou/5484d228bfc50efbac6e86677bc2ec2ee4ede1a6) | Google | 3<br>11 | Oct. 2022 | Open source
-| [LLaMA](https://www.semanticscholar.org/paper/LLaMA%3A-Open-and-Efficient-Foundation-Language-Touvron-Lavril/57e849d0de13ed5f91d086936296721d4ff75a75) | Meta | 7<br>13<br>30<br>65 | Fev. 2023 | Non commercial
+| [LLaMA](https://www.semanticscholar.org/paper/LLaMA%3A-Open-and-Efficient-Foundation-Language-Touvron-Lavril/57e849d0de13ed5f91d086936296721d4ff75a75) | Meta | 7<br>13<br>30<br>65 | Fev. 2023 | Non-commercial
 | [Pythia](https://www.eleuther.ai/papers-blog/pythia-a-suite-for-analyzing-large-language-modelsacross-training-and-scaling) | EleutherAI | 3<br>7<br>12 | April 2023 | Open source |
 | [StabilityLM](https://github.com/Stability-AI/StableLM) | StabilityAI | 3<br>7<br>15 (TBD)<br>30 (TBD)<br>65 (TBD)<br>175 (TBD) | April 2023 | Open source |
 | [MPT](https://www.mosaicml.com/blog/mpt-7b) | MosaicML | 7 | May 2023 | Open source |
@@ -45,7 +43,6 @@ I will mostly be checking out the finetuned GPTQ and GGML LLMs from HuggingFace 
 | [Dolly v2 7B](https://huggingface.co/databricks/dolly-v2-7b) | databricks/dolly-v2-7b | EleutherAI | Databricks | 7 | April 2023 | Open source | Databricks Dolly<br>(15k instructs) | No | A |
 | [WizardLM 13B Unrestricted](https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GPTQ) | TheBloke/Wizard-Vicuna-13B-Uncensored-GPTQ | LLaMa | Meta | 13 | April 2023 | Non-commercial (model, dataset) | WizardLM EvolInstruct Uncensored 50k | No | 4GB / 8GB-14GB |
 | A | A | A | A | A | A | A |
-
 
 ### **Alignment finetuning datasets**
 

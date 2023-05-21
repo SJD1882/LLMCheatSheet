@@ -1,5 +1,12 @@
 # **Large Language Models Resources Repository**
 
+<p align="center">
+<b><i>"If God did not exist, it would be necessary to invent him." - Voltaire</i></b>
+<br>
+<br>
+<b><i>"The real question is not whether machines think but whether men do." - B. F. Skinner</i></b>
+</p>
+
 <br>
 
 <p align="center">
@@ -21,9 +28,19 @@ Resources on this repository are of free of use with no restrictions.
 
 ## Contents
 
-1. Research litterature on Large Language Models
-2. Non-exhaustive summary of proprietary and open source LLMs
-3. Colab Notebooks
-    - **CNB01_AutoGPTQ** - Using AutoGPTQ to load GPTQ quantized 4-bit models with HuggingFace Transformers and Langchain for model inference
-    - **CNB02_Langchain_GGML** - Using Langchain to load GGML quantized 4-bit models for inference
-4. Youtube Resources
+- Research litterature on Large Language Models
+- Non-exhaustive summary of proprietary and open source LLMs
+- Colab Notebooks
+- Youtube Resources
+
+## Colab Notebooks
+
+Some ideas of implementations or use-cases with open source LLMs:
+
+- [x] Running GPTQ variants of open source LLMs with HuggingFace Transformers and Langchain
+- [ ] Running GGML variants (llama.cpp) of open source LLMs with Langchain (required to run LLMs with more than 50B parameters)
+- [ ] Use case: Using Anthropic's Constitutional AI to better moderate the outputs of unrestricted LLMs  
+- [ ] Use case: Using Open Source LLMs with Langchain for Web Search (e.g. Wikipedia, DuckDuckGo)
+- [ ] Use case: Using Open Source LLMs with Langchain for reading multiple PDF files
+- [ ] Use case: Using Open Source LLMs with Langchain for story writing
+- [ ] Example of AutoGPT using an open source LLM with Langchain and BabyAGI

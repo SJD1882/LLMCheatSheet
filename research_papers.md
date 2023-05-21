@@ -1,5 +1,15 @@
 # **LLM: Research Papers**
 
+<br>
+
+<p align="center">
+  <img src="images/meme2.jpeg" alt="Image Description" width="550px">
+</p>
+
+<p align="center" class="italic">
+Come on OpenAI, release the GPT-4 weights :innocent:
+</p>
+
 As Large Language Models (LLM) have exploded in popularity since the unveiling of ChatGPT by OpenAI in October 2022, research and commercial interest over LLMs has led to a tsunami of research contributions. This is an attempt to curate the list of research articles, with a description of the main findings of each paper to the best of my knowledge. This list is non-exhaustive.
 
 ## Summaries
@@ -62,3 +72,4 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 ## Economics
 
 - [Eloundou, Tyna et al. “**GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models**.” ArXiv abs/2303.10130 (March 2023)](https://www.semanticscholar.org/paper/GPTs-are-GPTs%3A-An-Early-Look-at-the-Labor-Market-of-Eloundou-Manning/538ea3b1f942f27d0db6eaf6c16711bc505c2c9e)
+

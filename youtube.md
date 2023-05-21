@@ -5,6 +5,7 @@ Useful code implementations and analysis of research papers:
 ## Sam Witteveen
 
 - (2023-05-11) [LangChain + Retrieval Local LLMs for Retrieval QA - No OpenAI!!!](https://www.youtube.com/watch?v=9ISVjh8mdlA)
+- (2023-04-30) [StableVicuna: The New King of Open ChatGPTs?](https://www.youtube.com/watch?v=m_xD0algP4k)
 - (2023-03-21) [Using Constitutional AI in LangChain](https://www.youtube.com/watch?v=uoVqNFDwpX4)
 - (2023-03-06) [LangChain - Conversations with Memory (explanation & code walkthrough)](https://www.youtube.com/watch?v=X550Zbz_ROE)
 
@@ -22,4 +23,5 @@ Useful code implementations and analysis of research papers:
 
 ## Yannic Kilcher
 
+- (2023-05-21) [OpenAI suggests AI licenses (US Senate hearing on AI regulation w/ Sam Altman)](https://www.youtube.com/watch?v=I72_GJHzH3Y)
 - (2022-06-03) [GPT-4chan: This is the worst AI ever](https://www.youtube.com/watch?v=efPrtcLdcdM)
