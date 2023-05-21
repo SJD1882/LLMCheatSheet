@@ -7,7 +7,7 @@
 </p>
 
 <p align="center" class="italic">
-Come on OpenAI, release the GPT-4 weights :innocent:
+<i>Come on OpenAI, release the GPT-4 weights</i> :innocent:
 </p>
 
 As Large Language Models (LLM) have exploded in popularity since the unveiling of ChatGPT by OpenAI in October 2022, research and commercial interest over LLMs has led to a tsunami of research contributions. This is an attempt to curate the list of research articles, with a description of the main findings of each paper to the best of my knowledge. This list is non-exhaustive.
