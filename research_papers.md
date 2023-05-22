@@ -27,6 +27,8 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
     - **GPT-3** (175B parameters) by OpenAI which powers chatbot ChatGPT (free-tier version). Proprietary LLM.
 - [Thoppilan, Romal et al. “**LaMDA: Language Models for Dialog Applications**.” ArXiv abs/2201.08239 (Jan. 2022)](https://www.semanticscholar.org/paper/LaMDA%3A-Language-Models-for-Dialog-Applications-Thoppilan-Freitas/b3848d32f7294ec708627897833c4097eb4d8778)
     - **LaMDA** (137B parameters) by Google which powered chatbot Bard (to be replaced soon by PaLM 2). Proprietary LLM.
+- [Chowdhery, Aakanksha et al. “**PaLM: Scaling Language Modeling with Pathways**.” ArXiv abs/2204.02311 (April 2022)](https://www.semanticscholar.org/paper/PaLM%3A-Scaling-Language-Modeling-with-Pathways-Chowdhery-Narang/094ff971d6a8b8ff870946c9b3ce5aa173617bfb)
+    - **PaLM 1** (540B parameters) by Google. Proprietary LLM.
 - [Touvron, Hugo et al. “**LLaMA: Open and Efficient Foundation Language Models**.” ArXiv abs/2302.13971 (Fev. 2023)](https://www.semanticscholar.org/paper/LLaMA%3A-Open-and-Efficient-Foundation-Language-Touvron-Lavril/57e849d0de13ed5f91d086936296721d4ff75a75)
     - **LLaMA** (7B to 65B parameter variants) by Meta. Released to the public under a non-commercial licence. Now ubiquitous among the research and AI enthusiast community, seeing countless finetuned variants (e.g. Alpaca, Vicuna, Open Assistant, WizardLM, Manticore, etc.).
 - [OpenAI. “**GPT-4 Technical Report**.” ArXiv abs/2303.08774 (March 2023)](https://www.semanticscholar.org/paper/GPT-4-Technical-Report-OpenAI/8ca62fdf4c276ea3052dc96dcfd8ee96ca425a48)
@@ -45,8 +47,8 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 - [Ouyang, Long et al. “**Training language models to follow instructions with human feedback**.” ArXiv abs/2203.02155 (March 2022)](https://www.semanticscholar.org/paper/Training-language-models-to-follow-instructions-Ouyang-Wu/d766bffc357127e0dc86dd69561d5aeb520d6f4c)
 - [Wang, Yizhong et al. “**Self-Instruct: Aligning Language Model with Self Generated Instructions**.” ArXiv abs/2212.10560 (Dec. 2022)](https://www.semanticscholar.org/paper/Self-Instruct%3A-Aligning-Language-Model-with-Self-Wang-Kordi/bbe93c90b7b87939cd064c805858feca61a3234d)
 - [Peng, Baolin et al. “**Instruction Tuning with GPT-4**.” ArXiv abs/2304.03277 (April 2023)](https://www.semanticscholar.org/paper/Instruction-Tuning-with-GPT-4-Peng-Li/9e8cb8c91a0acb6e661b58ad724aa758490f2bea)
-- [Kopf, Andreas et al. “**OpenAssistant Conversations - Democratizing Large Language Model Alignment**.” ArXiv abs/2304.07327 (2023)](https://www.semanticscholar.org/paper/OpenAssistant-Conversations-Democratizing-Large-Kopf-Kilcher/cf991eb05067c19c3786418e2bb6681a818574f0)
-- [Xu, Can et al. “**WizardLM: Empowering Large Language Models to Follow Complex Instructions**.” ArXiv abs/2304.12244 (2023)](https://www.semanticscholar.org/paper/WizardLM%3A-Empowering-Large-Language-Models-to-Xu-Sun/c61abec65d3b5d2bbd294b3d03f12ae252ed78a7)
+- [Kopf, Andreas et al. “**OpenAssistant Conversations - Democratizing Large Language Model Alignment**.” ArXiv abs/2304.07327 (April 2023)](https://www.semanticscholar.org/paper/OpenAssistant-Conversations-Democratizing-Large-Kopf-Kilcher/cf991eb05067c19c3786418e2bb6681a818574f0)
+- [Xu, Can et al. “**WizardLM: Empowering Large Language Models to Follow Complex Instructions**.” ArXiv abs/2304.12244 (April 2023)](https://www.semanticscholar.org/paper/WizardLM%3A-Empowering-Large-Language-Models-to-Xu-Sun/c61abec65d3b5d2bbd294b3d03f12ae252ed78a7)
 
 ## Theoretical Considerations on LLMs
 
@@ -58,6 +60,9 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 
 - [Frantar, Elias et al. “**GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers**.” ArXiv abs/2210.17323. Published at the ICLR 2023 (Oct. 2022)](https://www.semanticscholar.org/paper/GPTQ%3A-Accurate-Post-Training-Quantization-for-Frantar-Ashkboos/7da0f2501034522e3d50af7e9b8fa7ec9d7b65b6)
 - [Yao, Z. et al. “**A Comprehensive Study on Post-Training Quantization for Large Language Models**”. ArXiv, abs/2303.08302. (March 2023)](https://www.semanticscholar.org/paper/A-Comprehensive-Study-on-Post-Training-Quantization-Yao-Li/ab020d4bea061a0a09dfb3d58654fefb3d5ee770)
+
+## Robustness
+- [Wan, Alexander et al. “**Poisoning Language Models During Instruction Tuning**.” ArXiv abs/2305.00944 (May 2023)](https://www.semanticscholar.org/paper/Poisoning-Language-Models-During-Instruction-Tuning-Wan-Wallace/13e0f0bf9d6868d6825e13d8f9f25ee04285cd29)
 
 ## Alignment and Ethics (limitations of alignment)
 
