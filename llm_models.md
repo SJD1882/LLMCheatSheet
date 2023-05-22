@@ -42,7 +42,7 @@ I will mostly be checking out the finetuned GPTQ and GGML LLMs from HuggingFace 
 | [Pythia 3B (Dolly)](https://huggingface.co/databricks/dolly-v2-3b) |  EleutherAI | Databricks | 3 | April 2023 | Open source | Databricks Dolly<br>(15k instructs) | No | T4 15Go |
 | [Pythia 7B (Dolly)](https://huggingface.co/databricks/dolly-v2-7b) | EleutherAI | Databricks | 7 | April 2023 | Open source | Databricks Dolly<br>(15k instructs) | No | T4 15Go |
 | [LLaMA 13B (GPT4 x Vicuna) (Unrestricted)](https://huggingface.co/TheBloke/gpt4-x-vicuna-13B-GPTQ) | Meta | NousResearch | 13 | April 2023 | Non-commercial (model, dataset) | ShareGPT 35K Unrestricted  | No | T4 15Go
-| [LLaMA 13B (WizardLM)](https://huggingface.co/TheBloke/wizard-vicuna-13B-GPTQ) | Meta | Microsoft China | 13 | April 2023 | Non-commercial (model, dataset) | Wizard EvolInstruct 70k | No | T4 15Go
+| [LLaMA 13B (WizardLM x Vicuna)](https://huggingface.co/TheBloke/wizard-vicuna-13B-GPTQ) | Meta | Microsoft China | 13 | April 2023 | Non-commercial (model, dataset) | Wizard EvolInstruct 70k | No | T4 15Go
 | [LLaMA 13B (WizardLM) (Unrestricted)](https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GPTQ) | Meta | Microsoft China | 13 | April 2023 | Non-commercial (model, dataset) | WizardLM EvolInstruct Uncensored 50k | No | T4 15Go |
 
 
@@ -65,7 +65,6 @@ I will mostly be checking out the finetuned GPTQ and GGML LLMs from HuggingFace 
         - Users upload their prompts/replies from ChatGPT (any version), which can then be used for cheaply finetuning LLMs without relying on human annotators. The legality of using ShareGPT is rather murky but it seems that simply using it for research purposes, back office applications (not exposing to clients) or even commercial use might not be restricted as long as the LLM finetuned on ShareGPT doesn't compete with OpenAI's ChatGPT (not unlike the controversy where Google was accused of finetuning their chatbot Bard on GPT outputs).
     - [ShareGPT Unrestricted 35K](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered)
         - *Non-commercial*
-        - A
 - **WizardLM Evol-Instruct**
     - [WizardLM EvolInstruct 70K](https://huggingface.co/datasets/ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered)
         - *Non-commercial*
