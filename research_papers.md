@@ -21,6 +21,20 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 - [Yang, Jingfeng et al. “**Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond**.” ArXiv abs/2304.13712 (April 2023)](https://www.semanticscholar.org/paper/Harnessing-the-Power-of-LLMs-in-Practice%3A-A-Survey-Yang-Jin/131c6f328c11706de2c43cd16e0b7c5d5e610b6a)
     - Main takeaway of this paper is that while LLMs outperform classical state-of-the-art  transformers (BERT, RoBERTa, BART) on tasks that require out-of-sample generalization, on domain-specific tasks classical supervised methods still outperform LLMs (e.g. **English-Kazakh translation**).
 
+## Transformers
+
+- [Vaswani, Ashish et al. “**Attention is All you Need**.” NIPS (Dec. 2017)](https://www.semanticscholar.org/paper/Attention-is-All-you-Need-Vaswani-Shazeer/204e3073870fae3d05bcbc2f6a8e263d9b72e776)
+- [Yu, L. et al. “**MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers**.” ArXiv abs/2305.07185 (May 2023)](https://www.semanticscholar.org/paper/MEGABYTE%3A-Predicting-Million-byte-Sequences-with-Yu-Simig/412e266cddfd87c79087a88ba1e4d11b89a45a13)
+
+## Pre-LLM Transformers
+
+- [Devlin, Jacob et al. “**BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**.” ArXiv abs/1810.04805 (Oct. 2019)](https://www.semanticscholar.org/paper/BERT%3A-Pre-training-of-Deep-Bidirectional-for-Devlin-Chang/df2b0e26d0599ce3e70df8a9da02e51594e0e992)
+    - **BERT**
+- [Radford, Alec et al. “**Language Models are Unsupervised Multitask Learners**.” (Aug. 2019).](https://www.semanticscholar.org/paper/Language-Models-are-Unsupervised-Multitask-Learners-Radford-Wu/9405cc0d6169988371b2755e573cc28650d14dfe)
+    - **GPT-2**
+- [Raffel, Colin et al. “**Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer**.” ArXiv abs/1910.10683 (Oct. 2019)](https://www.semanticscholar.org/paper/Exploring-the-Limits-of-Transfer-Learning-with-a-Raffel-Shazeer/3cfb319689f06bf04c2e28399361f414ca32c4b3)
+    - **T5**
+
 ## Foundational LLMs
 
 - [Brown, Tom B. et al., “**Language Models are Few-Shot Learners**.” ArXiv abs/2005.14165 (May 2020)](https://www.semanticscholar.org/paper/Language-Models-are-Few-Shot-Learners-Brown-Mann/6b85b63579a916f705a8e10a49bd8d849d91b1fc)
@@ -39,6 +53,7 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
     - **PaLM 2** (340B parameters) by Google which is expected to replace LaMDA as the LLM powering chatbot Bard. Proprietary LLM. 
     - Note: the 340B figure was first reported by CNBC on May 16th 2023 ([Source](https://www.cnbc.com/2023/05/16/googles-palm-2-uses-nearly-five-times-more-text-data-than-predecessor.html))
 
+
 ## Alignment Fine-Tuning Methods (RLHF*)
 
 *Reinforcement Learning with Human Feedback
@@ -49,17 +64,19 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 - [Peng, Baolin et al. “**Instruction Tuning with GPT-4**.” ArXiv abs/2304.03277 (April 2023)](https://www.semanticscholar.org/paper/Instruction-Tuning-with-GPT-4-Peng-Li/9e8cb8c91a0acb6e661b58ad724aa758490f2bea)
 - [Kopf, Andreas et al. “**OpenAssistant Conversations - Democratizing Large Language Model Alignment**.” ArXiv abs/2304.07327 (April 2023)](https://www.semanticscholar.org/paper/OpenAssistant-Conversations-Democratizing-Large-Kopf-Kilcher/cf991eb05067c19c3786418e2bb6681a818574f0)
 - [Xu, Can et al. “**WizardLM: Empowering Large Language Models to Follow Complex Instructions**.” ArXiv abs/2304.12244 (April 2023)](https://www.semanticscholar.org/paper/WizardLM%3A-Empowering-Large-Language-Models-to-Xu-Sun/c61abec65d3b5d2bbd294b3d03f12ae252ed78a7)
+- [Zhou, Chunting et al. “**LIMA: Less Is More for Alignment**.” (May 2023)](https://www.semanticscholar.org/paper/LIMA%3A-Less-Is-More-for-Alignment-Zhou-Liu/546d0624adfc6e18fb87d8cc77e7705bb9ea7445)
+- [Dettmers, Tim et al. “**QLoRA: Efficient Finetuning of Quantized LLMs**.” (May 2023)](https://www.semanticscholar.org/paper/QLoRA%3A-Efficient-Finetuning-of-Quantized-LLMs-Dettmers-Pagnoni/32ac52069e562d4f900afee70bdca63f53461481)
+
+## Quantization of LLMs
+
+- [Frantar, Elias et al. “**GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers**.” ArXiv abs/2210.17323. Published at the ICLR 2023 (Oct. 2022)](https://www.semanticscholar.org/paper/GPTQ%3A-Accurate-Post-Training-Quantization-for-Frantar-Ashkboos/7da0f2501034522e3d50af7e9b8fa7ec9d7b65b6)
+- [Yao, Z. et al. “**A Comprehensive Study on Post-Training Quantization for Large Language Models**”. ArXiv, abs/2303.08302. (March 2023)](https://www.semanticscholar.org/paper/A-Comprehensive-Study-on-Post-Training-Quantization-Yao-Li/ab020d4bea061a0a09dfb3d58654fefb3d5ee770)
 
 ## Theoretical Considerations on LLMs
 
 - [Wei, Jason et al. “**Emergent Abilities of Large Language Models**.” Trans. Mach. Learn. Res. 2022 (June 2022)](https://www.semanticscholar.org/paper/Emergent-Abilities-of-Large-Language-Models-Wei-Tay/dac3a172b504f4e33c029655e9befb3386e5f63a)
 - [Bubeck, Sébastien et al. “**Sparks of Artificial General Intelligence: Early experiments with GPT-4**.” ArXiv abs/2303.12712 (March 2023)](https://www.semanticscholar.org/paper/Sparks-of-Artificial-General-Intelligence%3A-Early-Bubeck-Chandrasekaran/574beee702be3856d60aa482ec725168fe64fc99)
 - [Schaeffer, Rylan et al. “**Are Emergent Abilities of Large Language Models a Mirage?**” ArXiv abs/2304.15004 (April 2023)](https://www.semanticscholar.org/paper/Are-Emergent-Abilities-of-Large-Language-Models-a-Schaeffer-Miranda/27aeb0cdc2f09d9cd856d047ff61a91e85ba6794)
-
-## Quantization of LLMs
-
-- [Frantar, Elias et al. “**GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers**.” ArXiv abs/2210.17323. Published at the ICLR 2023 (Oct. 2022)](https://www.semanticscholar.org/paper/GPTQ%3A-Accurate-Post-Training-Quantization-for-Frantar-Ashkboos/7da0f2501034522e3d50af7e9b8fa7ec9d7b65b6)
-- [Yao, Z. et al. “**A Comprehensive Study on Post-Training Quantization for Large Language Models**”. ArXiv, abs/2303.08302. (March 2023)](https://www.semanticscholar.org/paper/A-Comprehensive-Study-on-Post-Training-Quantization-Yao-Li/ab020d4bea061a0a09dfb3d58654fefb3d5ee770)
 
 ## Robustness
 - [Wan, Alexander et al. “**Poisoning Language Models During Instruction Tuning**.” ArXiv abs/2305.00944 (May 2023)](https://www.semanticscholar.org/paper/Poisoning-Language-Models-During-Instruction-Tuning-Wan-Wallace/13e0f0bf9d6868d6825e13d8f9f25ee04285cd29)
