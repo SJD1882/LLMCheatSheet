@@ -5,19 +5,19 @@ Some ideas of implementations or use-cases with open source LLMs:
 ### **Basics**
 
 - **Running HuggingFace vanilla variants of open source LLMs with Langchain** 
-  - [] Pythia-Dolly 12B supervised finetuned on Databricks Dolly 15k instruction dataset
+  - [ ] Pythia-Dolly 12B supervised finetuned on Databricks Dolly 15k instruction dataset
 - **Running GPTQ variants of open source LLMs with HuggingFace and Langchain**
-  - [] LLaMA-WizardVicuna 13B supervised finetuned on Vicuna and WizardLM instruction datasets
-  - [] LLaMA-WizardLM 33B supervised finetuned on WizardLM instruction datasets
-  - [] LLaMA-Guacano 33B supervised finetuned on 9k sampled OpenAssistant Conversations dataset
-  - [] LLaMA-RLHF-OASST1 33B RLHF-finetuned on OpenAssistant Conversations dataset
+  - [ ] LLaMA-WizardVicuna 13B supervised finetuned on Vicuna and WizardLM instruction datasets
+  - [ ] LLaMA-WizardLM 33B supervised finetuned on WizardLM instruction datasets
+  - [ ] LLaMA-Guacano 33B supervised finetuned on 9k sampled OpenAssistant Conversations dataset
+  - [ ] LLaMA-RLHF-OASST1 33B RLHF-finetuned on OpenAssistant Conversations dataset
 - **Running GGML variants (llama.cpp compati) of open source LLMs with Langchain**
   - [x] LLaMA-WizardVicuna 13B supervised finetuned on Vicuna and WizardLM instruction datasets
-  - [] LLaMA-Guacano 65B supervised finetuned on 9k sampled OpenAssistant Conversations dataset
+  - [ ] LLaMA-Guacano 65B supervised finetuned on 9k sampled OpenAssistant Conversations dataset
 
 ### **Defensive frameworks**
 
-- [] Using Anthropic's Constitutional AI to better moderate the outputs of unrestricted LLMs
+- [ ] Using Anthropic's Constitutional AI to better moderate the outputs of unrestricted LLMs
 
 ### **Applications**
 
@@ -26,4 +26,4 @@ Some ideas of implementations or use-cases with open source LLMs:
 - [ ] Use case: Using Open Source LLMs with Langchain for story writing
 
 ### **AGI**
-- [] Reproducing ChaosGPT with an open source LLM and BabyAGI
+- [ ] Reproducing ChaosGPT with an open source LLM and BabyAGI
