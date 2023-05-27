@@ -1,5 +1,9 @@
 # **LLM: Non-Exhaustive List of Models**
 
+<p align="center">
+  <img src="images/stochastic_predictors.PNG" alt="Image Description" width="750px">
+</p>
+
 ## Proprietary LLMs
 
 | Name | Chatbot | Model<br>Creator | Parameters<br>(billions) | Release Date |
