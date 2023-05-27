@@ -11,7 +11,7 @@ Some ideas of implementations or use-cases with open source LLMs:
   - [ ] LLaMA-WizardLM 33B supervised finetuned on WizardLM instruction datasets
   - [ ] LLaMA-Guacano 33B supervised finetuned on 9k sampled OpenAssistant Conversations dataset
   - [ ] LLaMA-RLHF-OASST1 33B RLHF-finetuned on OpenAssistant Conversations dataset
-- **Running GGML variants (llama.cpp compati) of open source LLMs with Langchain**
+- **Running GGML variants (llama.cpp compatible) of open source LLMs with Langchain**
   - [x] LLaMA-WizardVicuna 13B supervised finetuned on Vicuna and WizardLM instruction datasets
   - [ ] LLaMA-Guacano 65B supervised finetuned on 9k sampled OpenAssistant Conversations dataset
 
