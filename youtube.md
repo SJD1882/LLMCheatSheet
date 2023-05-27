@@ -2,17 +2,22 @@
 
 Useful code implementations and analysis of research papers:
 
+## Microsoft Research
+
+- (2023-05-25) [State of GPT by Andrej Karpathy](https://www.youtube.com/watch?v=bZQun8Y4L2A)
+- (2023-04-06) [Sparks of AGI by Sébastien Bubeck](https://www.youtube.com/watch?v=qbIk7-JPB2c)
+
+## The Full Stack
+
+- (2023-05-11) [LLM Foundations](https://www.youtube.com/watch?v=MyFrMFab6bo)
+- (2023-05-11) [LLMOps: Deployment and Learning in Production](https://www.youtube.com/watch?v=Fquj2u7ay40)
+
 ## Sam Witteveen
 
 - (2023-05-11) [LangChain + Retrieval Local LLMs for Retrieval QA - No OpenAI!!!](https://www.youtube.com/watch?v=9ISVjh8mdlA)
 - (2023-04-30) [StableVicuna: The New King of Open ChatGPTs?](https://www.youtube.com/watch?v=m_xD0algP4k)
 - (2023-03-21) [Using Constitutional AI in LangChain](https://www.youtube.com/watch?v=uoVqNFDwpX4)
 - (2023-03-06) [LangChain - Conversations with Memory (explanation & code walkthrough)](https://www.youtube.com/watch?v=X550Zbz_ROE)
-
-## The Full Stack
-
-- (2023-05-11) [LLM Foundations](https://www.youtube.com/watch?v=MyFrMFab6bo)
-- (2023-05-11) [LLMOps: Deployment and Learning in Production](https://www.youtube.com/watch?v=Fquj2u7ay40)
 
 ## Fireship
 

@@ -52,10 +52,12 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 - [OpenAI. “**GPT-4 Technical Report**.” ArXiv abs/2303.08774 (March 2023)](https://www.semanticscholar.org/paper/GPT-4-Technical-Report-OpenAI/8ca62fdf4c276ea3052dc96dcfd8ee96ca425a48)
     - **GPT-4** (unknown parameter count) by OpenAI which powers chatbot ChatGPT and can be used with external plugins (premium version). Proprietary LLM.
 - [Biderman, Stella Rose et al. “**Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling**.” ArXiv abs/2304.01373 (April 2023)](https://www.semanticscholar.org/paper/Pythia%3A-A-Suite-for-Analyzing-Large-Language-Models-Biderman-Schoelkopf/64e20f2abc15d5cf04a682df5a1265bd45ba9fe7)
-    - **Pythia** (3B, 7B, 12B) by EleutherAI (ex-OpenAI veterans). Open source with free commercial licence.
+    - **Pythia** (3B, 7B, 12B parameters) by EleutherAI (ex-OpenAI veterans). Open source with free commercial licence.
 - [Anil, Rohan et al. “**PaLM 2 Technical Report**.” (May 2023)](https://www.semanticscholar.org/paper/PaLM-2-Technical-Report-Anil-Dai/eccee350691708972370b7a12c2a78ad3bddd159)
     - **PaLM 2** (340B parameters) by Google which is expected to replace LaMDA as the LLM powering chatbot Bard. Proprietary LLM. 
     - Note: the 340B figure was first reported by CNBC on May 16th 2023 ([Source](https://www.cnbc.com/2023/05/16/googles-palm-2-uses-nearly-five-times-more-text-data-than-predecessor.html))
+- [Li, Raymond et al. “**StarCoder: may the source be with you!**” ArXiv abs/2305.06161 (May 2023)](https://www.semanticscholar.org/paper/StarCoder%3A-may-the-source-be-with-you!-Li-Allal/b7ec5ff2ebe38c2d0191ad0a728e1726d200f645)
+    - **Starcoder** (15B parameters) specifically trained on a subset of +80 coding languages from the more general coding dataset "The Stack" (which has over +300 programming languages). Available under an OpenRAIL licence.
 
 ## Fine-Tuning Methods (RLHF* = SFT** + PPO***)
 
