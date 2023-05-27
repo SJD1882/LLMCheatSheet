@@ -28,6 +28,7 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 - [Bulatov, Aydar et al. “**Scaling Transformer to 1M tokens and beyond with RMT**.” ArXiv abs/2304.11062 (April 2023)](https://www.semanticscholar.org/paper/Scaling-Transformer-to-1M-tokens-and-beyond-with-Bulatov-Kuratov/594d8e1696619f3cebb7c6bffdad8e0a5592f006)
 - [Peng, Bo et al. “**RWKV: Reinventing RNNs for the Transformer Era**.” (May 2023)](https://www.semanticscholar.org/paper/RWKV%3A-Reinventing-RNNs-for-the-Transformer-Era-Peng-Alcaide/026b3396a63ed5772329708b7580d633bb86bec9)
 - [Yu, L. et al. “**MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers**.” ArXiv abs/2305.07185 (May 2023)](https://www.semanticscholar.org/paper/MEGABYTE%3A-Predicting-Million-byte-Sequences-with-Yu-Simig/412e266cddfd87c79087a88ba1e4d11b89a45a13)
+- [Mohtashami, Amirkeivan and Martin Jaggi. “**Landmark Attention: Random-Access Infinite Context Length for Transformers**.” (May 2023)](https://www.semanticscholar.org/paper/Landmark-Attention%3A-Random-Access-Infinite-Context-Mohtashami-Jaggi/60b35c6d68acced19b0c66edcfc0ee0a2c11efed)
 
 ## Pre-LLM Transformers
 
