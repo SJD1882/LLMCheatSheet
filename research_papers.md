@@ -26,7 +26,7 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 - [Vaswani, Ashish et al. “**Attention is All you Need**.” NIPS (Dec. 2017)](https://www.semanticscholar.org/paper/Attention-is-All-you-Need-Vaswani-Shazeer/204e3073870fae3d05bcbc2f6a8e263d9b72e776)
     - The original paper by researchers at Google that introduced **Transformers** for Natural Language Processing. And so the quest to AGI began...
 - [Bulatov, Aydar et al. “**Scaling Transformer to 1M tokens and beyond with RMT**.” ArXiv abs/2304.11062 (April 2023)](https://www.semanticscholar.org/paper/Scaling-Transformer-to-1M-tokens-and-beyond-with-Bulatov-Kuratov/594d8e1696619f3cebb7c6bffdad8e0a5592f006)
-- [Peng, Bo et al. “**RWKV: Reinventing RNNs for the Transformer Era**.” (May 2023).](https://www.semanticscholar.org/paper/RWKV%3A-Reinventing-RNNs-for-the-Transformer-Era-Peng-Alcaide/026b3396a63ed5772329708b7580d633bb86bec9)
+- [Peng, Bo et al. “**RWKV: Reinventing RNNs for the Transformer Era**.” (May 2023)](https://www.semanticscholar.org/paper/RWKV%3A-Reinventing-RNNs-for-the-Transformer-Era-Peng-Alcaide/026b3396a63ed5772329708b7580d633bb86bec9)
 - [Yu, L. et al. “**MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers**.” ArXiv abs/2305.07185 (May 2023)](https://www.semanticscholar.org/paper/MEGABYTE%3A-Predicting-Million-byte-Sequences-with-Yu-Simig/412e266cddfd87c79087a88ba1e4d11b89a45a13)
 
 ## Pre-LLM Transformers
@@ -89,7 +89,7 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 - [Wan, Alexander et al. “**Poisoning Language Models During Instruction Tuning**.” ArXiv abs/2305.00944 (May 2023)](https://www.semanticscholar.org/paper/Poisoning-Language-Models-During-Instruction-Tuning-Wan-Wallace/13e0f0bf9d6868d6825e13d8f9f25ee04285cd29)
 - [Santurkar, Shibani et al. “**Whose Opinions Do Language Models Reflect?**” ArXiv abs/2303.17548 (March 2023)](https://www.semanticscholar.org/paper/Whose-Opinions-Do-Language-Models-Reflect-Santurkar-Durmus/e38a29f6463f38f43797b128673b9e44d18a991e)
 - [Deshpande, A. et al. “**Toxicity in ChatGPT: Analyzing Persona-assigned Language Models**.” ArXiv abs/2304.05335 (April 2023)](https://www.semanticscholar.org/paper/Toxicity-in-ChatGPT%3A-Analyzing-Persona-assigned-Deshpande-Murahari/281a7a99c16ce8f53bfbfb7aeb460dbd28648d28)
-- [Shapira, Natalie et al. “**Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models**.” (2023).](https://www.semanticscholar.org/paper/Clever-Hans-or-Neural-Theory-of-Mind-Stress-Testing-Shapira-Levy/ddcd2bcc809bd0c2755a4a9487473d61ac327c50)
+- [Shapira, Natalie et al. “**Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models**.” (May 2023)](https://www.semanticscholar.org/paper/Clever-Hans-or-Neural-Theory-of-Mind-Stress-Testing-Shapira-Levy/ddcd2bcc809bd0c2755a4a9487473d61ac327c50)
 
 ## Theoretical Considerations on LLMs
 
@@ -113,4 +113,4 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 ## Artificial General Intelligence
 - [Bubeck, Sébastien et al. “**Sparks of Artificial General Intelligence: Early experiments with GPT-4**.” ArXiv abs/2303.12712 (March 2023)](https://www.semanticscholar.org/paper/Sparks-of-Artificial-General-Intelligence%3A-Early-Bubeck-Chandrasekaran/574beee702be3856d60aa482ec725168fe64fc99)
 - [Park, Joon Sung et al. “**Generative Agents: Interactive Simulacra of Human Behavior**.” ArXiv abs/2304.03442 (April 2023)](https://www.semanticscholar.org/paper/Generative-Agents%3A-Interactive-Simulacra-of-Human-Park-O'Brien/9ac1486988c7fc05bb4ff5c738ee222ec7e15a33)
-- [Wang, Guanzhi et al. “**Voyager: An Open-Ended Embodied Agent with Large Language Models**.” (May 2023).](https://www.semanticscholar.org/paper/Voyager%3A-An-Open-Ended-Embodied-Agent-with-Large-Wang-Xie/f197bf0fc2f228483f6af3285000d54d8d97f9eb)
+- [Wang, Guanzhi et al. “**Voyager: An Open-Ended Embodied Agent with Large Language Models**.” (May 2023)](https://www.semanticscholar.org/paper/Voyager%3A-An-Open-Ended-Embodied-Agent-with-Large-Wang-Xie/f197bf0fc2f228483f6af3285000d54d8d97f9eb)
