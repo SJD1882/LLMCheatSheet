@@ -12,9 +12,8 @@
 <br>
 
 <p align="center">
-  <img src="images/meme.PNG" alt="Image Description" width="600px">
+  <img src="images/stochastic_predictors.png" alt="Image Description" width="750px">
 </p>
-
 
 ## Motivation
 

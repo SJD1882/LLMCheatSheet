@@ -1,7 +1,7 @@
 # **LLM: Non-Exhaustive List of Models**
 
 <p align="center">
-  <img src="images/stochastic_predictors.PNG" alt="Image Description" width="750px">
+  <img src="images/meme.PNG" alt="Image Description" width="600px">
 </p>
 
 ## Proprietary LLMs
