@@ -30,19 +30,7 @@ Resources on this repository are of free of use with no restrictions.
 
 ## Contents
 
+- Colab Notebooks
 - Research litterature on Large Language Models
 - Non-exhaustive summary of proprietary and open source LLMs
-- Colab Notebooks
-- Youtube Resources
-
-## Colab Notebooks
-
-Some ideas of implementations or use-cases with open source LLMs:
-
-- [x] Running GPTQ variants of open source LLMs with HuggingFace Transformers and Langchain
-- [ ] Running GGML variants (llama.cpp) of open source LLMs with Langchain (required to run LLMs with more than 50B parameters)
-- [ ] Use case: Using Anthropic's Constitutional AI to better moderate the outputs of unrestricted LLMs  
-- [ ] Use case: Using Open Source LLMs with Langchain for Web Search (e.g. Wikipedia, DuckDuckGo)
-- [ ] Use case: Using Open Source LLMs with Langchain for reading multiple PDF files
-- [ ] Use case: Using Open Source LLMs with Langchain for story writing
-- [ ] Example of AutoGPT using an open source LLM with Langchain and BabyAGI
+- External links

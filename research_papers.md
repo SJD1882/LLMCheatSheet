@@ -24,13 +24,16 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 ## Transformers
 
 - [Vaswani, Ashish et al. “**Attention is All you Need**.” NIPS (Dec. 2017)](https://www.semanticscholar.org/paper/Attention-is-All-you-Need-Vaswani-Shazeer/204e3073870fae3d05bcbc2f6a8e263d9b72e776)
+    - The original paper by researchers at Google that introduced **Transformers** for Natural Language Processing. And so the quest to AGI began...
+- [Bulatov, Aydar et al. “**Scaling Transformer to 1M tokens and beyond with RMT**.” ArXiv abs/2304.11062 (April 2023)](https://www.semanticscholar.org/paper/Scaling-Transformer-to-1M-tokens-and-beyond-with-Bulatov-Kuratov/594d8e1696619f3cebb7c6bffdad8e0a5592f006)
+- [Peng, Bo et al. “**RWKV: Reinventing RNNs for the Transformer Era**.” (May 2023).](https://www.semanticscholar.org/paper/RWKV%3A-Reinventing-RNNs-for-the-Transformer-Era-Peng-Alcaide/026b3396a63ed5772329708b7580d633bb86bec9)
 - [Yu, L. et al. “**MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers**.” ArXiv abs/2305.07185 (May 2023)](https://www.semanticscholar.org/paper/MEGABYTE%3A-Predicting-Million-byte-Sequences-with-Yu-Simig/412e266cddfd87c79087a88ba1e4d11b89a45a13)
 
 ## Pre-LLM Transformers
 
 - [Devlin, Jacob et al. “**BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**.” ArXiv abs/1810.04805 (Oct. 2019)](https://www.semanticscholar.org/paper/BERT%3A-Pre-training-of-Deep-Bidirectional-for-Devlin-Chang/df2b0e26d0599ce3e70df8a9da02e51594e0e992)
     - **BERT**
-- [Radford, Alec et al. “**Language Models are Unsupervised Multitask Learners**.” (Aug. 2019).](https://www.semanticscholar.org/paper/Language-Models-are-Unsupervised-Multitask-Learners-Radford-Wu/9405cc0d6169988371b2755e573cc28650d14dfe)
+- [Radford, Alec et al. “**Language Models are Unsupervised Multitask Learners**.” (Aug. 2019)](https://www.semanticscholar.org/paper/Language-Models-are-Unsupervised-Multitask-Learners-Radford-Wu/9405cc0d6169988371b2755e573cc28650d14dfe)
     - **GPT-2**
 - [Raffel, Colin et al. “**Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer**.” ArXiv abs/1910.10683 (Oct. 2019)](https://www.semanticscholar.org/paper/Exploring-the-Limits-of-Transfer-Learning-with-a-Raffel-Shazeer/3cfb319689f06bf04c2e28399361f414ca32c4b3)
     - **T5**
@@ -53,10 +56,13 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
     - **PaLM 2** (340B parameters) by Google which is expected to replace LaMDA as the LLM powering chatbot Bard. Proprietary LLM. 
     - Note: the 340B figure was first reported by CNBC on May 16th 2023 ([Source](https://www.cnbc.com/2023/05/16/googles-palm-2-uses-nearly-five-times-more-text-data-than-predecessor.html))
 
-
-## Alignment Fine-Tuning Methods (RLHF*)
+## Fine-Tuning Methods (RLHF* = SFT** + PPO***)
 
 *Reinforcement Learning with Human Feedback
+
+**Supervised Fine Tuning
+
+***Proximal Policy Optimization
 
 - [Hu, J. Edward et al. “**LoRA: Low-Rank Adaptation of Large Language Models**.” ArXiv abs/2106.09685 (June 2021)](https://www.semanticscholar.org/paper/LoRA%3A-Low-Rank-Adaptation-of-Large-Language-Models-Hu-Shen/a8ca46b171467ceb2d7652fbfb67fe701ad86092)
 - [Ouyang, Long et al. “**Training language models to follow instructions with human feedback**.” ArXiv abs/2203.02155 (March 2022)](https://www.semanticscholar.org/paper/Training-language-models-to-follow-instructions-Ouyang-Wu/d766bffc357127e0dc86dd69561d5aeb520d6f4c)
@@ -72,26 +78,39 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 - [Frantar, Elias et al. “**GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers**.” ArXiv abs/2210.17323. Published at the ICLR 2023 (Oct. 2022)](https://www.semanticscholar.org/paper/GPTQ%3A-Accurate-Post-Training-Quantization-for-Frantar-Ashkboos/7da0f2501034522e3d50af7e9b8fa7ec9d7b65b6)
 - [Yao, Z. et al. “**A Comprehensive Study on Post-Training Quantization for Large Language Models**”. ArXiv, abs/2303.08302. (March 2023)](https://www.semanticscholar.org/paper/A-Comprehensive-Study-on-Post-Training-Quantization-Yao-Li/ab020d4bea061a0a09dfb3d58654fefb3d5ee770)
 
-## Theoretical Considerations on LLMs
-
-- [Wei, Jason et al. “**Emergent Abilities of Large Language Models**.” Trans. Mach. Learn. Res. 2022 (June 2022)](https://www.semanticscholar.org/paper/Emergent-Abilities-of-Large-Language-Models-Wei-Tay/dac3a172b504f4e33c029655e9befb3386e5f63a)
-- [Bubeck, Sébastien et al. “**Sparks of Artificial General Intelligence: Early experiments with GPT-4**.” ArXiv abs/2303.12712 (March 2023)](https://www.semanticscholar.org/paper/Sparks-of-Artificial-General-Intelligence%3A-Early-Bubeck-Chandrasekaran/574beee702be3856d60aa482ec725168fe64fc99)
-- [Schaeffer, Rylan et al. “**Are Emergent Abilities of Large Language Models a Mirage?**” ArXiv abs/2304.15004 (April 2023)](https://www.semanticscholar.org/paper/Are-Emergent-Abilities-of-Large-Language-Models-a-Schaeffer-Miranda/27aeb0cdc2f09d9cd856d047ff61a91e85ba6794)
-
-## Robustness
-- [Wan, Alexander et al. “**Poisoning Language Models During Instruction Tuning**.” ArXiv abs/2305.00944 (May 2023)](https://www.semanticscholar.org/paper/Poisoning-Language-Models-During-Instruction-Tuning-Wan-Wallace/13e0f0bf9d6868d6825e13d8f9f25ee04285cd29)
-
-## Alignment and Ethics (limitations of alignment)
-
-- [Santurkar, Shibani et al. “**Whose Opinions Do Language Models Reflect?**” ArXiv abs/2303.17548 (March 2023)](https://www.semanticscholar.org/paper/Whose-Opinions-Do-Language-Models-Reflect-Santurkar-Durmus/e38a29f6463f38f43797b128673b9e44d18a991e)
-- [Deshpande, A. et al. “**Toxicity in ChatGPT: Analyzing Persona-assigned Language Models**.” ArXiv abs/2304.05335 (April 2023)](https://www.semanticscholar.org/paper/Toxicity-in-ChatGPT%3A-Analyzing-Persona-assigned-Deshpande-Murahari/281a7a99c16ce8f53bfbfb7aeb460dbd28648d28)
-
-## Alignment and Ethics (alternatives to RLHF)
+## Alignment Approaches (Alternatives to RLHF)
 
 - [Bai, Yuntao et al. “**Constitutional AI: Harmlessness from AI Feedback**.” ArXiv abs/2212.08073 (Dec. 2022)](https://www.semanticscholar.org/paper/Constitutional-AI%3A-Harmlessness-from-AI-Feedback-Bai-Kadavath/3936fd3c6187f606c6e4e2e20b196dbc41cc4654)
 - [Sun, Zhiqing et al. “**Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision**.” ArXiv abs/2305.03047 (May 2023)](https://www.semanticscholar.org/paper/Principle-Driven-Self-Alignment-of-Language-Models-Sun-Shen/e01515c6138bc525f7aec30fc85f2adf028d4156)
 
-## Economics
+## Robustness, Harmlessness and Ethics
 
+- [Bender, Emily M. et al. “**On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?** 🦜.” Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (March 2021)](https://www.semanticscholar.org/paper/On-the-Dangers-of-Stochastic-Parrots%3A-Can-Language-Bender-Gebru/6d9727f1f058614cada3fe296eeebd8ec4fc512a)
+- [Wan, Alexander et al. “**Poisoning Language Models During Instruction Tuning**.” ArXiv abs/2305.00944 (May 2023)](https://www.semanticscholar.org/paper/Poisoning-Language-Models-During-Instruction-Tuning-Wan-Wallace/13e0f0bf9d6868d6825e13d8f9f25ee04285cd29)
+- [Santurkar, Shibani et al. “**Whose Opinions Do Language Models Reflect?**” ArXiv abs/2303.17548 (March 2023)](https://www.semanticscholar.org/paper/Whose-Opinions-Do-Language-Models-Reflect-Santurkar-Durmus/e38a29f6463f38f43797b128673b9e44d18a991e)
+- [Deshpande, A. et al. “**Toxicity in ChatGPT: Analyzing Persona-assigned Language Models**.” ArXiv abs/2304.05335 (April 2023)](https://www.semanticscholar.org/paper/Toxicity-in-ChatGPT%3A-Analyzing-Persona-assigned-Deshpande-Murahari/281a7a99c16ce8f53bfbfb7aeb460dbd28648d28)
+- [Shapira, Natalie et al. “**Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models**.” (2023).](https://www.semanticscholar.org/paper/Clever-Hans-or-Neural-Theory-of-Mind-Stress-Testing-Shapira-Levy/ddcd2bcc809bd0c2755a4a9487473d61ac327c50)
+
+## Theoretical Considerations on LLMs
+
+- [Wei, Jason et al. “**Emergent Abilities of Large Language Models**.” Trans. Mach. Learn. Res. 2022 (June 2022)](https://www.semanticscholar.org/paper/Emergent-Abilities-of-Large-Language-Models-Wei-Tay/dac3a172b504f4e33c029655e9befb3386e5f63a)
+- [Schaeffer, Rylan et al. “**Are Emergent Abilities of Large Language Models a Mirage?**” ArXiv abs/2304.15004 (April 2023)](https://www.semanticscholar.org/paper/Are-Emergent-Abilities-of-Large-Language-Models-a-Schaeffer-Miranda/27aeb0cdc2f09d9cd856d047ff61a91e85ba6794)
+
+## Applications
+
+### *Healthcare*
+- [Singhal, K. et al. “**Large Language Models Encode Clinical Knowledge**.” ArXiv abs/2212.13138 (Dec. 2022)](https://www.semanticscholar.org/paper/Large-Language-Models-Encode-Clinical-Knowledge-Singhal-Azizi/6052486bc9144dc1730c12bf35323af3792a1fd0)
+- [Wu, Chaoyi et al. “**PMC-LLaMA: Further Finetuning LLaMA on Medical Papers**.” ArXiv abs/2304.14454 (April 2023)](https://www.semanticscholar.org/paper/PMC-LLaMA%3A-Further-Finetuning-LLaMA-on-Medical-Wu-Zhang/5bbad6d8d0fa20dfa50eb3588dafe14d4a4c4b2f)
+- [Singhal, K. et al. “**Towards Expert-Level Medical Question Answering with Large Language Models**.” ArXiv abs/2305.09617 (May 2023)](https://www.semanticscholar.org/paper/Towards-Expert-Level-Medical-Question-Answering-Singhal-Tu/7ed0faa6720cd176d57badbc0455af31a03f080c)
+
+### *Financial Markets*
+- [Wu, Shijie et al. “**BloombergGPT: A Large Language Model for Finance**.” ArXiv abs/2303.17564 (April 2023)]()
+- [Xie, Qianqian et al. “**The Wall Street Neophyte: A Zero-Shot Analysis of ChatGPT Over MultiModal Stock Movement Prediction Challenges**.” ArXiv abs/2304.05351 (May 2023)](https://www.semanticscholar.org/paper/The-Wall-Street-Neophyte%3A-A-Zero-Shot-Analysis-of-Xie-Han/ef4cb88b1635b34af15059567dfdf134f79797aa)
+
+## Economics
 - [Eloundou, Tyna et al. “**GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models**.” ArXiv abs/2303.10130 (March 2023)](https://www.semanticscholar.org/paper/GPTs-are-GPTs%3A-An-Early-Look-at-the-Labor-Market-of-Eloundou-Manning/538ea3b1f942f27d0db6eaf6c16711bc505c2c9e)
 
+## Artificial General Intelligence
+- [Bubeck, Sébastien et al. “**Sparks of Artificial General Intelligence: Early experiments with GPT-4**.” ArXiv abs/2303.12712 (March 2023)](https://www.semanticscholar.org/paper/Sparks-of-Artificial-General-Intelligence%3A-Early-Bubeck-Chandrasekaran/574beee702be3856d60aa482ec725168fe64fc99)
+- [Park, Joon Sung et al. “**Generative Agents: Interactive Simulacra of Human Behavior**.” ArXiv abs/2304.03442 (April 2023)](https://www.semanticscholar.org/paper/Generative-Agents%3A-Interactive-Simulacra-of-Human-Park-O'Brien/9ac1486988c7fc05bb4ff5c738ee222ec7e15a33)
+- [Wang, Guanzhi et al. “**Voyager: An Open-Ended Embodied Agent with Large Language Models**.” (May 2023).](https://www.semanticscholar.org/paper/Voyager%3A-An-Open-Ended-Embodied-Agent-with-Large-Wang-Xie/f197bf0fc2f228483f6af3285000d54d8d97f9eb)
