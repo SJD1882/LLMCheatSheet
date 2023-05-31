@@ -34,7 +34,7 @@ It is important to distinguish the open sourced LLM from the variant that was fi
 | [StabilityLM](https://github.com/Stability-AI/StableLM) | StabilityAI | OASST | None | 3<br>7<br>15 (TBD)<br>30 (TBD)<br>65 (TBD)<br>175 (TBD) | April 2023 | Open source |
 | [MPT](https://www.mosaicml.com/blog/mpt-7b) | MosaicML | Wizard | None |  7 | May 2023 | Open source |
 | [Starcoder](https://huggingface.co/blog/starcoder)<br>(mainly for code<br>generation) | HuggingFace | GPTeacher | None | 15 | May 2023 | OpenRAIL<br>(open source<br>with use-case<br>restrictions)
-| :fire: [**Falcon**](https://falconllm.tii.ae/) | Technology Innovation<br>Institute (UAE) | Falcon-Instruct<br>Samantha | None | 7<br>40 | May 2023 | Open source |
+| [**Falcon**](https://falconllm.tii.ae/) :fire: | Technology Innovation<br>Institute (UAE) | Falcon-Instruct<br>Samantha | None | 7<br>40 | May 2023 | Open source |
 | [OpenLLaMA](https://github.com/openlm-research/open_llama) | Berkeley AI Research<br>| TBD | TBD | TBD | TBD | Open source |
 
 ### **Finetuned Variants of Consumer LLMs**
