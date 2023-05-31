@@ -26,31 +26,24 @@
 
 It is important to distinguish the open sourced LLM from the variant that was finetuned (RLHF) on a specific dataset of instructions (RLHF-Supervised Fine-Tuning) and/or a dataset of LLM output preferences (RLHF-Proximal Policy Optimization).
 
-| Name | Model<br>Creator | Parameters<br>(billions) | Release Date | Licence |
-| -- | -- | -- | -- | -- |
-| [Flan-T5-XL<br>Flan-T5-XXL](https://www.semanticscholar.org/paper/Scaling-Instruction-Finetuned-Language-Models-Chung-Hou/5484d228bfc50efbac6e86677bc2ec2ee4ede1a6) | Google | 3<br>11 | Oct. 2022 | Open source
-| [LLaMA](https://www.semanticscholar.org/paper/LLaMA%3A-Open-and-Efficient-Foundation-Language-Touvron-Lavril/57e849d0de13ed5f91d086936296721d4ff75a75) | Meta | 7<br>13<br>30<br>65 | Fev. 2023 | Non-commercial
-| [Pythia](https://www.eleuther.ai/papers-blog/pythia-a-suite-for-analyzing-large-language-modelsacross-training-and-scaling) | EleutherAI | 3<br>7<br>12 | April 2023 | Open source |
-| [StabilityLM](https://github.com/Stability-AI/StableLM) | StabilityAI | 3<br>7<br>15 (TBD)<br>30 (TBD)<br>65 (TBD)<br>175 (TBD) | April 2023 | Open source |
-| [MPT](https://www.mosaicml.com/blog/mpt-7b) | MosaicML | 7 | May 2023 | Open source |
-| [Starcoder](https://huggingface.co/blog/starcoder)<br>(mainly for code<br>generation) | HuggingFace | 15 | May 2023 | OpenRAIL<br>(open source<br>with use-case<br>restrictions)
-| [OpenLLaMA](https://github.com/openlm-research/open_llama) | Berkeley AI Research<br>| TBD | TBD | Open source |
+| Name | Model<br>Creator | Finetuned Variants | RLHF Variants | Parameters<br>(billions) | Release Date | Licence |
+| -- | -- | -- | -- | -- | -- | -- |
+| [Flan-T5-XL<br>Flan-T5-XXL](https://www.semanticscholar.org/paper/Scaling-Instruction-Finetuned-Language-Models-Chung-Hou/5484d228bfc50efbac6e86677bc2ec2ee4ede1a6) | Google | Fastchat-T5 | None | 3<br>11 | Oct. 2022 | Open source
+| [**LLaMA**](https://www.semanticscholar.org/paper/LLaMA%3A-Open-and-Efficient-Foundation-Language-Touvron-Lavril/57e849d0de13ed5f91d086936296721d4ff75a75) :fire: | Meta | Alpaca<br>Vicuna<br>Koala<br>OASST<br>OASST-h2O<br>**Guanaco** :fire:<br>Wizard<br>WizardVicuna<br>WizardMega<br>Manticore<br>StableVicuna<br>VicUnlocked<br>Dromedary<br>Samantha<br>Supercot<br>Medalpaca<br>Hipogriff | OASST<br>StableVicuna | 7<br>13<br>30<br>65 | Feb. 2023 | Non-commercial
+| [Pythia](https://www.eleuther.ai/papers-blog/pythia-a-suite-for-analyzing-large-language-modelsacross-training-and-scaling) | EleutherAI | Dolly<br>OASST | None | 3<br>7<br>12 | April 2023 | Open source |
+| [StabilityLM](https://github.com/Stability-AI/StableLM) | StabilityAI | OASST | None | 3<br>7<br>15 (TBD)<br>30 (TBD)<br>65 (TBD)<br>175 (TBD) | April 2023 | Open source |
+| [MPT](https://www.mosaicml.com/blog/mpt-7b) | MosaicML | Wizard | None |  7 | May 2023 | Open source |
+| [Starcoder](https://huggingface.co/blog/starcoder)<br>(mainly for code<br>generation) | HuggingFace | GPTeacher | None | 15 | May 2023 | OpenRAIL<br>(open source<br>with use-case<br>restrictions)
+| :fire: [**Falcon**](https://falconllm.tii.ae/) | Technology Innovation<br>Institute (UAE) | Falcon-Instruct<br>Samantha | None | 7<br>40 | May 2023 | Open source |
+| [OpenLLaMA](https://github.com/openlm-research/open_llama) | Berkeley AI Research<br>| TBD | TBD | TBD | TBD | Open source |
 
-### **Alignment finetuned Variants of Consumer LLMs**
+### **Finetuned Variants of Consumer LLMs**
 
 I will mostly be checking out the finetuned GPTQ and GGML LLMs from HuggingFace user [TheBloke](https://huggingface.co/TheBloke) and other official providers (e.g. LMSYS, Databricks, OpenAssistant). I will be listening new models each time I was successful in running them on Google Colab.
 
-| Name | Model<br> Creator | Model<br>Finetuner | Parameters<br>(billions) | Fintuned<br>Release | Licence | RLHF-SFT<br>Dataset | RLHF-PPO<br>Dataset | GPU |
-| -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| [Fastchat-T5](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)| Google | LMSYS | 3 | April 2023 | Non-commercial<br>(dataset) | ShareGPT<br>(70k chats) | No | T4 15Go |
-| [Pythia 3B (Dolly)](https://huggingface.co/databricks/dolly-v2-3b) |  EleutherAI | Databricks | 3 | April 2023 | Open source | Databricks Dolly<br>(15k instructs) | No | T4 15Go |
-| [Pythia 7B (Dolly)](https://huggingface.co/databricks/dolly-v2-7b) | EleutherAI | Databricks | 7 | April 2023 | Open source | Databricks Dolly<br>(15k instructs) | No | T4 15Go |
-| [LLaMA 13B (GPT4 x Vicuna) (Unrestricted)](https://huggingface.co/TheBloke/gpt4-x-vicuna-13B-GPTQ) | Meta | NousResearch | 13 | April 2023 | Non-commercial (model, dataset) | ShareGPT 35K Unrestricted  | No | T4 15Go
-| [LLaMA 13B (WizardLM x Vicuna)](https://huggingface.co/TheBloke/wizard-vicuna-13B-GPTQ) | Meta | Microsoft China | 13 | April 2023 | Non-commercial (model, dataset) | Wizard EvolInstruct 70k | No | T4 15Go
-| [LLaMA 13B (WizardLM) (Unrestricted)](https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GPTQ) | Meta | Microsoft China | 13 | April 2023 | Non-commercial (model, dataset) | WizardLM EvolInstruct Uncensored 50k | No | T4 15Go |
+[TBD]
 
-
-### **Alignment finetuning datasets**
+### **Finetuning datasets**
 
 - **Alpaca Finetuning Datasets**
     - [Stanford Alpaca SelfInstruct 52K](https://huggingface.co/datasets/tatsu-lab/alpaca)
@@ -76,3 +69,7 @@ I will mostly be checking out the finetuned GPTQ and GGML LLMs from HuggingFace 
     - [WizardLM EvolInstruct Unrestricted 50K](https://huggingface.co/datasets/ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered)
         - *Non-commercial*
         - The original EvolInstruct 70k filtered of OpenAI's alignment contraints ("I'm sorry...", "As an AI language model, I cannot..."), reduced down to the 50K complex instructions (following WizardLM's EvolInstruct methodology). The LLaMA 7B trained on this unrestricted dataset produces better performances than the restricted vanilla LLM, which might indicate that there is an "alignment tax" (excessive moral alignment decreases model capacity to respond to user queries).
+
+### **RLHF datasets**
+
+[TBD]

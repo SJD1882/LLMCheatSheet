@@ -1,6 +1,6 @@
-# **LLM: Youtube Tutorials and some "*culture générale*"**
+# **LLM: Youtube Resources**
 
-Useful code implementations and analysis of research papers:
+Useful resources found YouTube (code implementations, conferences, news summaries):
 
 ## Microsoft Research
 
@@ -11,6 +11,10 @@ Useful code implementations and analysis of research papers:
 
 - (2023-05-11) [LLM Foundations](https://www.youtube.com/watch?v=MyFrMFab6bo)
 - (2023-05-11) [LLMOps: Deployment and Learning in Production](https://www.youtube.com/watch?v=Fquj2u7ay40)
+
+## Caltech
+
+- (2023-05-25) [Artificial Intelligence: The Good, the Bad, and the Ugly - Yaser Abu-Mostafa](https://www.youtube.com/watch?v=-a61zsRRONc&t=1200s)
 
 ## Sam Witteveen
 
