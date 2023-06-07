@@ -74,12 +74,15 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 - :fire: [Kopf, Andreas et al. “**OpenAssistant Conversations - Democratizing Large Language Model Alignment**.” ArXiv abs/2304.07327 (April 2023)](https://www.semanticscholar.org/paper/OpenAssistant-Conversations-Democratizing-Large-Kopf-Kilcher/cf991eb05067c19c3786418e2bb6681a818574f0)
 - [Xu, Can et al. “**WizardLM: Empowering Large Language Models to Follow Complex Instructions**.” ArXiv abs/2304.12244 (April 2023)](https://www.semanticscholar.org/paper/WizardLM%3A-Empowering-Large-Language-Models-to-Xu-Sun/c61abec65d3b5d2bbd294b3d03f12ae252ed78a7)
 - [Zhou, Chunting et al. “**LIMA: Less Is More for Alignment**.” (May 2023)](https://www.semanticscholar.org/paper/LIMA%3A-Less-Is-More-for-Alignment-Zhou-Liu/546d0624adfc6e18fb87d8cc77e7705bb9ea7445)
-- :fire: [Dettmers, Tim et al. “**QLoRA: Efficient Finetuning of Quantized LLMs**.” (May 2023)](https://www.semanticscholar.org/paper/QLoRA%3A-Efficient-Finetuning-of-Quantized-LLMs-Dettmers-Pagnoni/32ac52069e562d4f900afee70bdca63f53461481)
+- [Gudibande, Arnav et al. “**The False Promise of Imitating Proprietary LLMs**.” ArXiv abs/2305.15717 (May 2023)](https://www.semanticscholar.org/paper/The-False-Promise-of-Imitating-Proprietary-LLMs-Gudibande-Wallace/5d44f16a36ba7ae6b3d9d7c98bbc1b877e598f35)
+- [Mukherjee, Subhabrata et al. “**Orca: Progressive Learning from Complex Explanation Traces of GPT-4**.” (June 2023)](https://www.semanticscholar.org/paper/Orca%3A-Progressive-Learning-from-Complex-Explanation-Mukherjee-Mitra/0244aeb7c6927e2fb0c2e668687e160a00737dbe)
 
 ## Quantization of LLMs
 
 - :fire: [Frantar, Elias et al. “**GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers**.” ArXiv abs/2210.17323. Published at the ICLR 2023 (Oct. 2022)](https://www.semanticscholar.org/paper/GPTQ%3A-Accurate-Post-Training-Quantization-for-Frantar-Ashkboos/7da0f2501034522e3d50af7e9b8fa7ec9d7b65b6)
 - [Yao, Z. et al. “**A Comprehensive Study on Post-Training Quantization for Large Language Models**”. ArXiv, abs/2303.08302. (March 2023)](https://www.semanticscholar.org/paper/A-Comprehensive-Study-on-Post-Training-Quantization-Yao-Li/ab020d4bea061a0a09dfb3d58654fefb3d5ee770)
+- :fire: [Dettmers, Tim et al. “**QLoRA: Efficient Finetuning of Quantized LLMs**.” (May 2023)](https://www.semanticscholar.org/paper/QLoRA%3A-Efficient-Finetuning-of-Quantized-LLMs-Dettmers-Pagnoni/32ac52069e562d4f900afee70bdca63f53461481)
+- [Dettmers, Tim et al. “**SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression**.” (June 2023)](https://www.semanticscholar.org/paper/SpQR%3A-A-Sparse-Quantized-Representation-for-LLM-Dettmers-Svirschevski/51db4c39dc0bdf5c95c8bbe89bf4211b48d0b4df)
 
 ## Alignment Approaches (Alternatives to RLHF)
 

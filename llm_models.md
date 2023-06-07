@@ -39,9 +39,17 @@ It is important to distinguish the open sourced LLM from the variant that was fi
 
 ### **Finetuned Variants of Consumer LLMs**
 
-I will mostly be checking out the finetuned GPTQ and GGML LLMs from HuggingFace user [TheBloke](https://huggingface.co/TheBloke) and other official providers (e.g. LMSYS, Databricks, OpenAssistant). I will be listening new models each time I was successful in running them on Google Colab.
+I will mostly be checking out the finetuned GPTQ and GGML LLMs from HuggingFace user [TheBloke](https://huggingface.co/TheBloke) and other official providers (e.g. LMSYS, Databricks, OpenAssistant). Models to explore:
 
-[TBD]
+- [ ] TheBloke/WizardLM-7B-uncensored-GPTQ
+- [ ] TheBloke/Vigogne-Instruct-13B-GPTQ
+- [ ] TheBloke/Wizard-Vicuna-13B-Uncensored-GPTQ
+- [ ] TheBloke/guanaco-13B-GPTQ
+- [ ] TheBloke/samantha-33B-GPTQ
+- [ ] TheBloke/WizardLM-Uncensored-SuperCOT-StoryTelling-30B-GPTQ
+- [ ] Yhyu13/oasst-rlhf-2-llama-30b-7k-steps-gptq-4bit
+- [ ] TheBloke/guanaco-33B-GPTQ
+- [ ] TheBloke/guanaco-65B-GPTQ
 
 ### **Finetuning datasets**
 
