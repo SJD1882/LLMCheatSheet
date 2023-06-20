@@ -4,16 +4,14 @@ Some ideas of implementations or use-cases with open source LLMs:
 
 ### **Basics**
 
-- **Running HuggingFace vanilla variants of open source LLMs with Langchain** 
-  - [ ] Pythia-Dolly 12B supervised finetuned on Databricks Dolly 15k instruction dataset
 - **Running GPTQ variants of open source LLMs with HuggingFace and Langchain**
-  - [x] [LLaMA-WizardVicuna 13B supervised finetuned on Vicuna and WizardLM instruction datasets](GPTQ_LLaMA_WizardLM_13B.ipynb)
-  - [ ] LLaMA-WizardLM 33B supervised finetuned on WizardLM instruction datasets
-  - [ ] LLaMA-Guacano 33B supervised finetuned on 9k sampled OpenAssistant Conversations dataset
-  - [ ] LLaMA-RLHF-OASST1 33B RLHF-finetuned on OpenAssistant Conversations dataset
+  - [ ] LLaMA 30B
+  - [ ] LLaMA 65B
+  - [ ] Falcon 40B
+  - [ ] Starcoder 15B
+  - [ ] OpenLLaMA 30B
 - **Running GGML variants (CPU-only or non-Nvidia GPUs) of open source LLMs with Langchain**
-  - [x] [LLaMA-WizardVicuna 13B supervised finetuned on Vicuna and WizardLM instruction datasets](GGML_LLaMA_WizardLM_13B.ipynb)
-  - [ ] LLaMA-Guacano 65B supervised finetuned on 9k sampled OpenAssistant Conversations dataset
+  - [ ] LLaMA 65B
 
 ### **Defensive frameworks**
 
@@ -23,7 +21,6 @@ Some ideas of implementations or use-cases with open source LLMs:
 
 - [ ] Use case: Using Open Source LLMs with Langchain for Web Search (e.g. Wikipedia, DuckDuckGo)
 - [ ] Use case: Using Open Source LLMs with Langchain for reading multiple PDF files
-- [ ] Use case: Using Open Source LLMs with Langchain for story writing
 
 ### **AGI**
 - [ ] Reproducing ChaosGPT with an open source LLM and BabyAGI

@@ -58,6 +58,8 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
     - Note: the 340B figure was first reported by CNBC on May 16th 2023 ([Source](https://www.cnbc.com/2023/05/16/googles-palm-2-uses-nearly-five-times-more-text-data-than-predecessor.html))
 - [Li, Raymond et al. “**StarCoder: may the source be with you!**” ArXiv abs/2305.06161 (May 2023)](https://www.semanticscholar.org/paper/StarCoder%3A-may-the-source-be-with-you!-Li-Allal/b7ec5ff2ebe38c2d0191ad0a728e1726d200f645)
     - **Starcoder** (15B parameters) specifically trained on a subset of +80 coding languages from the more general coding dataset "The Stack" (which has over +300 programming languages). Available under an OpenRAIL licence.
+- [Penedo, Guilherme et al. “**The RefinedWeb Dataset for Falcon LLM: Outperforming Curated Corpora with Web Data, and Web Data Only**.” ArXiv abs/2306.01116 (June 2023)](https://www.semanticscholar.org/paper/The-RefinedWeb-Dataset-for-Falcon-LLM%3A-Curated-with-Penedo-Malartic/7a1e71cb1310c4a873e7a4e54d1a6dab0553adce)
+    - **Falcon** (3B, 40B parameters) from the Technological Innovation Institute from the United Arab Emirates. Made a splash on the HuggingFace LLM rankings and has an open source licence compared to Meta's LLaMA.
 
 ## Fine-Tuning Methods (RLHF* = SFT** + PPO***)
 
@@ -76,6 +78,7 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 - [Zhou, Chunting et al. “**LIMA: Less Is More for Alignment**.” (May 2023)](https://www.semanticscholar.org/paper/LIMA%3A-Less-Is-More-for-Alignment-Zhou-Liu/546d0624adfc6e18fb87d8cc77e7705bb9ea7445)
 - [Gudibande, Arnav et al. “**The False Promise of Imitating Proprietary LLMs**.” ArXiv abs/2305.15717 (May 2023)](https://www.semanticscholar.org/paper/The-False-Promise-of-Imitating-Proprietary-LLMs-Gudibande-Wallace/5d44f16a36ba7ae6b3d9d7c98bbc1b877e598f35)
 - [Mukherjee, Subhabrata et al. “**Orca: Progressive Learning from Complex Explanation Traces of GPT-4**.” (June 2023)](https://www.semanticscholar.org/paper/Orca%3A-Progressive-Learning-from-Complex-Explanation-Mukherjee-Mitra/0244aeb7c6927e2fb0c2e668687e160a00737dbe)
+- [Luo, Ziyang et al. “**WizardCoder: Empowering Code Large Language Models with Evol-Instruct**.” ArXiv abs/2306.08568 (June 2023)](https://www.semanticscholar.org/paper/WizardCoder%3A-Empowering-Code-Large-Language-Models-Luo-Xu/454c8fef2957aa2fb13eb2c7a454393a2ee83805)
 
 ## Quantization of LLMs
 
@@ -112,6 +115,7 @@ As Large Language Models (LLM) have exploded in popularity since the unveiling o
 ### *Financial Markets*
 - [Wu, Shijie et al. “**BloombergGPT: A Large Language Model for Finance**.” ArXiv abs/2303.17564 (April 2023)]()
 - [Xie, Qianqian et al. “**The Wall Street Neophyte: A Zero-Shot Analysis of ChatGPT Over MultiModal Stock Movement Prediction Challenges**.” ArXiv abs/2304.05351 (May 2023)](https://www.semanticscholar.org/paper/The-Wall-Street-Neophyte%3A-A-Zero-Shot-Analysis-of-Xie-Han/ef4cb88b1635b34af15059567dfdf134f79797aa)
+- [Yang, Hongyang et al. “**FinGPT: Open-Source Financial Large Language Models**.” ArXiv abs/2306.06031 (June 2023)](https://www.semanticscholar.org/paper/FinGPT%3A-Open-Source-Financial-Large-Language-Models-Yang-Liu/5dea206e2a36e672f197252bdd27d156d058f48c)
 
 ## Economics
 - [Eloundou, Tyna et al. “**GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models**.” ArXiv abs/2303.10130 (March 2023)](https://www.semanticscholar.org/paper/GPTs-are-GPTs%3A-An-Early-Look-at-the-Labor-Market-of-Eloundou-Manning/538ea3b1f942f27d0db6eaf6c16711bc505c2c9e)

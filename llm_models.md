@@ -28,28 +28,24 @@ It is important to distinguish the open sourced LLM from the variant that was fi
 
 | Name | Model<br>Creator | Finetuned Variants | RLHF Variants | Parameters<br>(billions) | Release Date | Licence |
 | -- | -- | -- | -- | -- | -- | -- |
+| [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) | EleutherAI | Dolly<br>OASST | None | 3<br>20 | Feb. 2022 | Open source |
 | [Flan-T5-XL<br>Flan-T5-XXL](https://www.semanticscholar.org/paper/Scaling-Instruction-Finetuned-Language-Models-Chung-Hou/5484d228bfc50efbac6e86677bc2ec2ee4ede1a6) | Google | Fastchat-T5 | None | 3<br>11 | Oct. 2022 | Open source
-| [**LLaMA**](https://www.semanticscholar.org/paper/LLaMA%3A-Open-and-Efficient-Foundation-Language-Touvron-Lavril/57e849d0de13ed5f91d086936296721d4ff75a75) :fire: | Meta | Alpaca<br>Vicuna<br>Koala<br>OASST<br>OASST-h2O<br>**Guanaco** :fire:<br>Wizard<br>WizardVicuna<br>WizardMega<br>Manticore<br>StableVicuna<br>VicUnlocked<br>Dromedary<br>Samantha<br>Supercot<br>Medalpaca<br>Hipogriff | OASST<br>StableVicuna | 7<br>13<br>30<br>65 | Feb. 2023 | Non-commercial
+| [**LLaMA**](https://www.semanticscholar.org/paper/LLaMA%3A-Open-and-Efficient-Foundation-Language-Touvron-Lavril/57e849d0de13ed5f91d086936296721d4ff75a75) :fire: | Meta | Alpaca<br>Vicuna<br>Koala<br>OASST<br>OASST-h2O<br>**Guanaco** :fire:<br>Wizard<br>WizardVicuna<br>WizardMega<br>Manticore<br>StableVicuna<br>VicUnlocked<br>Dromedary<br>Samantha<br>Supercot<br>NousHermes<br>Airoboros<br>Tulu<br>FinLLaMA<br>Baichuan | OASST<br>StableVicuna | 7<br>13<br>30<br>65 | Feb. 2023 | Non-commercial
 | [Pythia](https://www.eleuther.ai/papers-blog/pythia-a-suite-for-analyzing-large-language-modelsacross-training-and-scaling) | EleutherAI | Dolly<br>OASST | None | 3<br>7<br>12 | April 2023 | Open source |
-| [StabilityLM](https://github.com/Stability-AI/StableLM) | StabilityAI | OASST | None | 3<br>7<br>15 (TBD)<br>30 (TBD)<br>65 (TBD)<br>175 (TBD) | April 2023 | Open source |
-| [MPT](https://www.mosaicml.com/blog/mpt-7b) | MosaicML | Wizard | None |  7 | May 2023 | Open source |
-| [Starcoder](https://huggingface.co/blog/starcoder)<br>(mainly for code<br>generation) | HuggingFace | GPTeacher | None | 15 | May 2023 | OpenRAIL<br>(open source<br>with use-case<br>restrictions)
-| [**Falcon**](https://falconllm.tii.ae/) :fire: | Technology Innovation<br>Institute (UAE) | Falcon-Instruct<br>Samantha | None | 7<br>40 | May 2023 | Open source |
-| [OpenLLaMA](https://github.com/openlm-research/open_llama) | Berkeley AI Research<br>| TBD | TBD | TBD | TBD | Open source |
+| [StableLM](https://github.com/Stability-AI/StableLM) | Stability AI | OASST | None | 3<br>7<br>15 (TBD)<br>30 (TBD)<br>65 (TBD)<br>175 (TBD) | April 2023 | Open source |
+| [MPT](https://www.mosaicml.com/blog/mpt-7b) | MosaicML | Storywriter | None |  7 | May 2023 | Open source |
+| [Starcoder](https://huggingface.co/blog/starcoder)<br>(mainly for code<br>generation) | HuggingFace | GPTeacher<br>**Wizard** :fire: | None | 15 | May 2023 | OpenRAIL<br>(open source<br>with use-case<br>restrictions)
+| [Falcon](https://falconllm.tii.ae/) | Technology Innovation<br>Institute (UAE) | Falcon-Instruct<br>Samantha<br>Wizard | None | 7<br>40 | May 2023 | Open source |
+| [OpenLLaMA](https://github.com/openlm-research/open_llama) | Berkeley AI Research<br>| *Ongoing* | None | 3<br>7<br>13<br>30 (TBD)<br>65 (TBD) | June 2023 | Open source |
 
 ### **Finetuned Variants of Consumer LLMs**
 
 I will mostly be checking out the finetuned GPTQ and GGML LLMs from HuggingFace user [TheBloke](https://huggingface.co/TheBloke) and other official providers (e.g. LMSYS, Databricks, OpenAssistant). Models to explore:
 
-- [ ] TheBloke/WizardLM-7B-uncensored-GPTQ
-- [ ] TheBloke/Vigogne-Instruct-13B-GPTQ
-- [ ] TheBloke/Wizard-Vicuna-13B-Uncensored-GPTQ
-- [ ] TheBloke/guanaco-13B-GPTQ
-- [ ] TheBloke/samantha-33B-GPTQ
-- [ ] TheBloke/WizardLM-Uncensored-SuperCOT-StoryTelling-30B-GPTQ
-- [ ] Yhyu13/oasst-rlhf-2-llama-30b-7k-steps-gptq-4bit
-- [ ] TheBloke/guanaco-33B-GPTQ
-- [ ] TheBloke/guanaco-65B-GPTQ
+- [ ] LLaMA
+- [ ] Falcon
+- [ ] Starcoder
+- [ ] OpenLLaMA
 
 ### **Finetuning datasets**
 
